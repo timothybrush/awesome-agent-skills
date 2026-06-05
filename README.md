@@ -66,9 +66,7 @@ The most contributed Agent Skills repository, built and maintained together with
 | [Notion](#skills-by-notion) | [Resend](#skills-by-resend) | [Addy Osmani (Web Quality)](#skills-by-addy-osmani-web-quality) | [MongoDB](#skills-by-mongodb) |
 | [Kim Barrett (Advertising)](#advertising-skills-by-kim-barrett) | [Apollo GraphQL](#skills-by-apollo-graphql) | [Auth0](#skills-by-auth0) | [Brave](#skills-by-brave) |
 | [Browserbase](#skills-by-browserbase) | [CodeRabbit](#skills-by-coderabbit) | [Coinbase](#skills-by-coinbase) | [Datadog Labs](#skills-by-datadog-labs) |
-| [Firebase](#skills-by-firebase) | [Flutter](#skills-by-flutter) | [Venice.ai](#skills-by-veniceai) | [Community](#community-skills) |
-| [Redis](#skills-by-redis) | [NVIDIA](#skills-by-nvidia) | [Google Cloud](#skills-by-google-cloud) | [Quality Standards](#skill-quality-standards) |
-
+| [Firebase](#skills-by-firebase) | [Flutter](#skills-by-flutter) | [Venice.ai](#skills-by-veniceai) | [Red Hat](#skills-by-redhat) | [Community](#community-skills) |  | [Redis](#skills-by-redis) | [NVIDIA](#skills-by-nvidia) | [Google Cloud](#skills-by-google-cloud) | [Quality Standards](#skill-quality-standards) |
 
 
 ## Ecosystem Tools
@@ -1495,6 +1493,18 @@ Official Google Cloud skills covering Firebase, BigQuery, Cloud Run, GKE, AlloyD
 
 </details>
 
+<details open>
+<summary><h3 style="display:inline">Skills by RedHat</h3></summary>
+
+Extend the power of AI across your organization with a curated library of skills, agents, and MCP servers—all backed by your Red Hat subscription. Whether you’re an SRE optimizing workflows in Cursor or an architect building intelligent interfaces, leverage trusted building blocks to deploy and scale agentic automation with confidence.
+
+- **[redhat/cve-skillpack](https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-customers#agent-and-skills)** - Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations.
+
+- **[redhat/sre-skillpack](https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-site-reliability-engineers)** - Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.
+
+- **[redhat/openshift-skillpack](https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift)** - Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow.
+
+- **[redhat/openshift-virtualization](https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift-virtualization)** - Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow.
 <details>
 <summary><h3 style="display:inline">Skills by Cypress</h3></summary>
 
@@ -1773,6 +1783,7 @@ As the ecosystem grows, consistent quality helps agents discover and use skills 
 | **Progressive disclosure** | Keep top-level metadata under ~100 tokens. Skill body should stay below 500 lines. Load resources (large docs, schemas) on demand, not inline. |
 | **No absolute paths** | Never hard-code machine-specific paths like `/Users/alice/`. Use relative paths or well-known variables (`$HOME`, `$PROJECT_ROOT`). |
 | **Scoped tools** | Request only the tools the skill actually needs. Avoid blanket `"tools": ["*"]`. Declare tool dependencies explicitly. |
+
 
 ## 🤝 Contributing
 
